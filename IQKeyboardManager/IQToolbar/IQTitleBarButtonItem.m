@@ -144,7 +144,7 @@
 
 -(void)dealloc
 {
-    self.customView = nil;
+//     self.customView = nil;
     [_titleButton removeTarget:nil action:NULL forControlEvents:UIControlEventTouchUpInside];
     _titleView = nil;
     _titleButton = nil;
